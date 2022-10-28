@@ -162,7 +162,22 @@ table .c0,
     flex-direction: column;
   }
 }
-@media (max-width: 922px) {
+@media (max-width: 1060px) {
+  /* body {
+    background-color: red;
+  } */
+  .head {
+    font-size: 18px;
+  }
+  #high {
+    font-size: 12px;
+  }
+  .dd {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 922px)  {
   /* body {
     background-color: rgb(121, 90, 90);
   } */
@@ -192,7 +207,7 @@ table .c0,
     font-size: 17px;
   }
 }
-@media (max-width: 672px) {
+@media (max-width: 672px)  {
   /* body {
     background-color: rgb(146, 140, 205);
   } */
@@ -210,7 +225,7 @@ table .c0,
     font-size: 10px;
   }
 }
-@media (max-width: 672px)  {
+@media (max-width: 672px) {
   /* body {
     background-color: rgb(49, 45, 81);
   } */

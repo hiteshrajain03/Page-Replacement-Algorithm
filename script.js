@@ -223,6 +223,7 @@ function buildTable(arr) {
     mytable += '</tr>';
     i++;
   }
+  
   mytable += '</table>';
   part2.innerHTML = mytable;
 }
